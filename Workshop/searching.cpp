@@ -7,6 +7,7 @@ using namespace std;
 int main() {
 	
 	map<int, string> Students;
+	
 	Students.insert(std::pair<int, string>(190789, "Akash"));
 	Students.insert(std::pair<int, string>(190790, "Manas"));
 	
