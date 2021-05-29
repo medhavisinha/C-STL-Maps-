@@ -27,6 +27,5 @@ cout << '\t' << itr->first
 }  
 cout<<"\n";
 
-return 0; //The program must return value upon successful completion.
-  
+return 0; //The program must return value upon successful completion. 
 }
