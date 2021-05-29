@@ -9,11 +9,11 @@ int main() {
 
 	my_map.insert(std::make_pair("Akash", 190789));
 
-	my_map.insert(std::make_pair("Manas", 190790));
+	my_map.insert(std::make_pair("Zenil", 190792));
 
 	my_map["Tanveer"] = 190791;
 
-	map<std::string, int>::iterator it = my_map.find("Manas");
+	map<std::string, int>::iterator it = my_map.find("Zenil");
 
 	my_map.erase(it);
 
