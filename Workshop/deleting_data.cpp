@@ -3,6 +3,7 @@
 #include <map>
 
 using namespace std;
+
 int main() {
 
 	map<std::string, int> my_map;
@@ -22,4 +23,5 @@ int main() {
 		cout << (*it).first << ": " << (*it).second << endl;
 
   return 0;
+	
 }
