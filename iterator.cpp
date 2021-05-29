@@ -11,7 +11,7 @@ int main() {
 
 	Students.insert(std::pair<int, string>(201, "John"));
     
-    Students.insert(std::pair<int, string>(202, "Marcus"));
+        Students.insert(std::pair<int, string>(202, "Marcus"));
 
 	cout << "Map size is: " << Students.size() << endl;
 
