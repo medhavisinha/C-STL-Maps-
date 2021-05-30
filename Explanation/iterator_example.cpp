@@ -26,7 +26,7 @@ cout << endl << "Default Map Order is: " << endl;
 //Use a for loop to create an iterator named it to iterate over the elements of the map named Students.
 for (map<int, string>::iterator it = Students.begin(); it != Students.end(); ++it) {
 
-//Print the values of the map Students on the console.
+//Print the values of the map Students on the compiler/editor.
 cout << (*it).first << ": " << (*it).second << endl;
 	}
 }
